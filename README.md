@@ -1,16 +1,22 @@
 ### Hi there 👋
 
-<!--
-**andreimaxim/andreimaxim** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```ruby
+# frozen_string_literal: true
 
-Here are some ideas to get you started:
+class About
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  def enjoys
+    # TODO: Add Clojure and Javascript
+    %w[ ruby ]
+  end
+
+  def works_for
+    %w[ Throwpoint WEF PrimariaS1 ]
+  end
+
+  def for_hire?
+    works_for.empty?
+  end
+
+end
+```
