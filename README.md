@@ -1,5 +1,3 @@
-### Hi there 👋
-
 ```ruby
 # frozen_string_literal: true
 
