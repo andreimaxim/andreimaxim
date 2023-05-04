@@ -6,7 +6,7 @@ class About
   end
 
   def works_for
-    %w[ Throwpoint WEF PrimariaS1 ]
+    %w[ Throwpoint WEForum PrimariaS1 ]
   end
 
   def for_hire?
