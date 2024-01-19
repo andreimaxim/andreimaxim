@@ -1,12 +1,12 @@
 ```ruby
 class About
   def enjoys
-    # TODO: Add Clojure and Javascript
+    # TODO: Add Javascript
     %w[ ruby ]
   end
 
   def works_for
-    %w[ Throwpoint WEForum PrimariaS1 ]
+    %w[ Throwpoint WEForum ]
   end
 
   def for_hire?
