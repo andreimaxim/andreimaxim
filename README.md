@@ -1,7 +1,7 @@
 ```ruby
 class About
   def enjoys
-    # TODO: Add Javascript
+    # TODO: Add TypeScript and Rust
     %w[ ruby ]
   end
 
